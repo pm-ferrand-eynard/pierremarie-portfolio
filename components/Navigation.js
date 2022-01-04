@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import ThemeSwitch from "./ThemeSwitch";
-import { Transition } from "@headlessui/react";
+
 
 const Navigation = () => {
   return (
@@ -10,13 +10,13 @@ const Navigation = () => {
 
       <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between ">
           {[
-              ['Home','/'],
-              ['About me', '/about'],
-              ['Projects', '/projects'],
-              ['Get in touch', '/contact'],
+              ['Home','/','"#F3E753'],
+              ['About me', '/about','#B6D3B9'],
+              ['Projects', '/projects','#81C3D1'],
+              ['Get in touch', '/contact','#BA597E'],
           ].map(([title,url])=>(
               <a href={url} className={
-                " font-inconsolata-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white dark:hover:text-sky-500 "
+                "font-inconsolata-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white dark:hover:text-blue"
               } > {title}</a>
           ))}
         

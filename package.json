@@ -10,8 +10,13 @@
     "@heroicons/react": "^1.0.5",
     "next": "latest",
     "next-themes": "^0.0.15",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^16.13.0",
+    "react-3d-cube": "^1.0.5",
+    "react-dom": "^16.13.0",
+    "react-in-viewport": "^1.0.0-alpha.20",
+    "react-rough-notation": "^1.0.1",
+    "react-use": "^17.3.2",
+    "rough-notation": "^0.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
