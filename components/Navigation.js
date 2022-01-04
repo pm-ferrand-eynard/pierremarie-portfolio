@@ -26,6 +26,7 @@ const Navigation = ({ isShowing }) => {
                         </a>
                     </Transition>
                 </Link>
+                
                 <ThemeSwitch />
             </div>
         </div>
